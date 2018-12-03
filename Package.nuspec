@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Bdc.JobService</id>
+    <version>1.0.0</version>
+    <authors>z3ut</authors>
+    <owners>z3ut</owners>
+    <projectUrl>https://github.com/beldorcentr/job-service</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Recurrent tasks with web interface as a service</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>Tasks Service</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>
