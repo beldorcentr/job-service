@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Bdc.JobService.Businesslogic.Configuration;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,8 @@ namespace Bdc.JobService.Service.Configuration
             //builder.RegisterType<FooWork>()
             //    .As<IFooWork>()
             //    .InstancePerLifetimeScope();
+
+            builder.Register(c => LogManager.GetCurrentClassLogger()).As<ILogger>();
 
             builder.RegisterModule(new BusinessLogicModule(_connectionString));
         }
