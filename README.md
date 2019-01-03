@@ -10,7 +10,7 @@ Service use NLog for logging and provide config for Oracle database target (WEB_
 
 ## Development
 
-Debug build run as site. In browser open /hangfire to see Hangfire Dashboard. Send HTTP POST on /api/makefoo to queue job. Job CRONs in appsettings.json tasks:cron.
+Debug build run as console application with api on 5000 port (configurable in appsettings.json). In browser open /hangfire to see Hangfire Dashboard. Send HTTP POST on /api/makefoo to queue job. Job CRONs in appsettings.json tasks:cron.
 
 ### Create nuget template
 

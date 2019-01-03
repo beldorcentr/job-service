@@ -17,9 +17,6 @@ namespace Bdc.JobService.Service
         public static void Main(string[] args)
         {
             var isService = !(Debugger.IsAttached || args.Contains("--console"));
-#if DEBUG
-            isService = false;
-#endif
 
             var builder = CreateWebHostBuilder(args.Where(arg => arg != "--console").ToArray());
 
