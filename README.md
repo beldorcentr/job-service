@@ -17,5 +17,5 @@ Debug build run as site. In browser open /hangfire to see Hangfire Dashboard. Se
 ```
 nuget pack Package.nuspec
 dotnet new -i Bdc.JobService.1.0.0.nupkg
-dotnet new bdcjobservice
+dotnet new bdcjobservice -n AwesomeService
 ```

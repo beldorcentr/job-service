@@ -4,5 +4,15 @@
   "classifications": [ "Tasks", "Service" ],
   "identity": "Bdc.JobService",
   "name": "Recurrent tasks with web interface as a service",
-  "shortName": "bdcjobservice"
+  "shortName": "bdcjobservice",
+  "sourceName": "Bdc.JobService",
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ ".vs/**" ]
+        }
+      ]
+    }
+  ]
 }
