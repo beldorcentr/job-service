@@ -6,6 +6,7 @@
   "name": "Recurrent tasks with web interface as a service",
   "shortName": "bdcjobservice",
   "sourceName": "Bdc.JobService",
+  "preferNameDirectory": true,
   "sources": [
     {
       "modifiers": [
